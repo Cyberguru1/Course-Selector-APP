@@ -1,0 +1,81 @@
+{
+    "ShowLogs": true,
+    "QMainWindow": [
+        {
+            "tittle": "Course Selector App"
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": []
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "Course Selector App",
+                "ApplicationName": "Course Selector App Company",
+                "OrginizationDormain": "vlog.cyb3rguru.tech"
+            }
+        }
+    ],
+    "QPushButtonGroup": [
+        {
+            "Buttons": [
+                "home",
+                "history",
+                "institution",
+                "select_course",
+                "about",
+                "help",
+                "settings"
+            ],
+            "Style": [
+                {
+                    "Active": "background-color: #1b1b27; border-left: 4px solid #cc5bce; font-weight: bold;",
+                    "NotActive": "background-color: transparent; border: none;"
+                }
+            ]
+        }
+    ],
+    "QCustomSlideMenu": [
+        {
+            "name": "leftMenu",
+            "defaultSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "collapsedSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "expandedSize": [
+                {
+                    "width": 200,
+                    "height": "parent"
+                }
+            ],
+            "toggleButton": [
+                {
+                    "buttonName": "menuBtn",
+                    "icons": [
+                        {
+                            "whenMenuIsCollapsed": ":/icons/icons/align-just.png",
+                            "whenMenuIsExpanded": ":/icons/icons/chevron-left.png"
+                        }
+                    ]
+                }
+            ],
+            "menuTransitionAnimation": [
+                {
+                    "animationDuration": 400,
+                    "animationEasingCurve": "Linear"
+                }
+            ]
+        }
+    ]
+}
