@@ -22,13 +22,13 @@
     "QPushButtonGroup": [
         {
             "Buttons": [
-                "home",
-                "history",
-                "institution",
-                "select_course",
-                "about",
-                "help",
-                "settings"
+                "homeBtn",
+                "historyBtn",
+                "institutionBtn",
+                "select_courseBtn",
+                "aboutBtn",
+                "helpBtn",
+                "settingsBtn"
             ],
             "Style": [
                 {
@@ -64,8 +64,8 @@
                     "buttonName": "menuBtn",
                     "icons": [
                         {
-                            "whenMenuIsCollapsed": ":/icons/icons/align-just.png",
-                            "whenMenuIsExpanded": ":/icons/icons/chevron-left.png"
+                            "whenMenuIsCollapsed": ":/icons/Icons/align-justify.png",
+                            "whenMenuIsExpanded": ":/icons/Icons/chevron-left.png"
                         }
                     ]
                 }
@@ -74,6 +74,47 @@
                 {
                     "animationDuration": 400,
                     "animationEasingCurve": "Linear"
+                }
+            ]
+        }
+    ],
+    "QStackedWidget": [
+        {
+            "name": "mainPages",
+            "transitionAnimation": [
+                {
+                    "fade": [
+                        {
+                            "active": true,
+                            "duration": 500,
+                            "easingCurve": "OutBack"
+                        }
+                    ],
+                    "slide": [
+                        {
+                            "active": true,
+                            "duration": 500,
+                            "direction": "horizontal",
+                            "easingCurve": "OutBack"
+                        }
+                    ]
+                }
+            ],
+            "navigation": [
+                {
+                    "navigationButtons": [
+                        {
+                            "homeBtn": "homePage",
+                            "historyBtn": "historyPage",
+                            "select_courseBtn": "selectPage",
+                            "institutionBtn": "institutionsPage",
+                            "settingsBtn": "settingsPage",
+                            "helpBtn": "helpPage",
+                            "aboutBtn": "aboutPage",
+                            "notificationsBtn": "notificationsPage",
+                            "connBtn": "connPage"
+                        }
+                    ]
                 }
             ]
         }

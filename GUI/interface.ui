@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>930</width>
+    <width>1076</width>
     <height>659</height>
    </rect>
   </property>
@@ -146,7 +146,7 @@ QPushButton{
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
-           <widget class="QPushButton" name="pushButton_3">
+           <widget class="QPushButton" name="notificationsBtn">
             <property name="cursor">
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
@@ -166,7 +166,7 @@ QPushButton{
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_2">
+           <widget class="QPushButton" name="connBtn">
             <property name="cursor">
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
@@ -186,7 +186,7 @@ QPushButton{
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton">
+           <widget class="QPushButton" name="acctBtn">
             <property name="minimumSize">
              <size>
               <width>38</width>
@@ -203,7 +203,7 @@ QPushButton{
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
             <property name="styleSheet">
-             <string notr="true">#pushButton {
+             <string notr="true">#acctBtn{
 	border: 1px solid #cc5bce;
 	border-radius: 19px;
 	text-align: center;
@@ -261,7 +261,7 @@ QPushButton{
         <number>0</number>
        </property>
        <item>
-        <widget class="QWidget" name="leftMenu" native="true">
+        <widget class="QCustomSlideMenu" name="leftMenu" native="true">
          <property name="minimumSize">
           <size>
            <width>200</width>
@@ -285,7 +285,7 @@ QPushButton{
            <number>20</number>
           </property>
           <item>
-           <widget class="QWidget" name="widget" native="true">
+           <widget class="QCustomSlideMenu" name="widget" native="true">
             <property name="minimumSize">
              <size>
               <width>200</width>
@@ -333,7 +333,7 @@ QPushButton{
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QPushButton" name="home">
+                 <widget class="QPushButton" name="homeBtn">
                   <property name="font">
                    <font>
                     <weight>75</weight>
@@ -357,7 +357,7 @@ QPushButton{
                  </widget>
                 </item>
                 <item>
-                 <widget class="QPushButton" name="select_course">
+                 <widget class="QPushButton" name="select_courseBtn">
                   <property name="font">
                    <font>
                     <weight>75</weight>
@@ -381,7 +381,7 @@ QPushButton{
                  </widget>
                 </item>
                 <item>
-                 <widget class="QPushButton" name="institution">
+                 <widget class="QPushButton" name="institutionBtn">
                   <property name="font">
                    <font>
                     <weight>75</weight>
@@ -405,7 +405,7 @@ QPushButton{
                  </widget>
                 </item>
                 <item>
-                 <widget class="QPushButton" name="history">
+                 <widget class="QPushButton" name="historyBtn">
                   <property name="font">
                    <font>
                     <weight>75</weight>
@@ -469,7 +469,7 @@ QPushButton{
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QPushButton" name="settings">
+                 <widget class="QPushButton" name="settingsBtn">
                   <property name="font">
                    <font>
                     <weight>75</weight>
@@ -493,7 +493,7 @@ QPushButton{
                  </widget>
                 </item>
                 <item>
-                 <widget class="QPushButton" name="help">
+                 <widget class="QPushButton" name="helpBtn">
                   <property name="font">
                    <font>
                     <weight>75</weight>
@@ -517,7 +517,7 @@ QPushButton{
                  </widget>
                 </item>
                 <item>
-                 <widget class="QPushButton" name="about">
+                 <widget class="QPushButton" name="aboutBtn">
                   <property name="font">
                    <font>
                     <weight>75</weight>
@@ -553,9 +553,221 @@ QPushButton{
         <widget class="QWidget" name="mainBodyContent" native="true">
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
-           <widget class="QStackedWidget" name="stackedWidget">
-            <widget class="QWidget" name="page"/>
-            <widget class="QWidget" name="page_2"/>
+           <widget class="QCustomStackedWidget" name="mainPages">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="homePage">
+             <widget class="QLabel" name="label_4">
+              <property name="geometry">
+               <rect>
+                <x>225</x>
+                <y>90</y>
+                <width>166</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Home screen Page</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="lineEdit">
+              <property name="geometry">
+               <rect>
+                <x>150</x>
+                <y>240</y>
+                <width>391</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <property name="placeholderText">
+               <string>User input</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="selectPage">
+             <widget class="QLabel" name="label_3">
+              <property name="geometry">
+               <rect>
+                <x>180</x>
+                <y>195</y>
+                <width>166</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Select Course Page</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="institutionsPage">
+             <widget class="QLabel" name="label_2">
+              <property name="geometry">
+               <rect>
+                <x>195</x>
+                <y>180</y>
+                <width>166</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Institution Page</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="historyPage">
+             <widget class="QLabel" name="label_5">
+              <property name="geometry">
+               <rect>
+                <x>330</x>
+                <y>270</y>
+                <width>166</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Home Page</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="settingsPage">
+             <widget class="QLabel" name="label_6">
+              <property name="geometry">
+               <rect>
+                <x>330</x>
+                <y>255</y>
+                <width>166</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>settings Page</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="helpPage">
+             <widget class="QLabel" name="label_7">
+              <property name="geometry">
+               <rect>
+                <x>240</x>
+                <y>210</y>
+                <width>166</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Help Page</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="aboutPage">
+             <widget class="QLabel" name="label_8">
+              <property name="geometry">
+               <rect>
+                <x>270</x>
+                <y>195</y>
+                <width>166</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>About Page</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="notificationsPage">
+             <widget class="QLabel" name="label_9">
+              <property name="geometry">
+               <rect>
+                <x>255</x>
+                <y>195</y>
+                <width>166</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Notification Page</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="connPage">
+             <widget class="QLabel" name="label_10">
+              <property name="geometry">
+               <rect>
+                <x>225</x>
+                <y>180</y>
+                <width>166</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Connection Page</string>
+              </property>
+             </widget>
+            </widget>
            </widget>
           </item>
          </layout>
@@ -570,6 +782,20 @@ QPushButton{
    </layout>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomStackedWidget</class>
+   <extends>QStackedWidget</extends>
+   <header location="global">Custom_Widgets.Widgets.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QCustomSlideMenu</class>
+   <extends>QWidget</extends>
+   <header location="global">Custom_Widgets.Widgets.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="QSS/QSS_Resources.qrc"/>
  </resources>
