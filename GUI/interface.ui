@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1076</width>
+    <width>1121</width>
     <height>659</height>
    </rect>
   </property>
@@ -69,7 +69,7 @@ QPushButton{
     <property name="bottomMargin">
      <number>0</number>
     </property>
-    <item alignment="Qt::AlignTop">
+    <item>
      <widget class="QWidget" name="header" native="true">
       <layout class="QHBoxLayout" name="horizontalLayout">
        <property name="spacing">
@@ -555,15 +555,15 @@ QPushButton{
           <item>
            <widget class="QCustomStackedWidget" name="mainPages">
             <property name="currentIndex">
-             <number>0</number>
+             <number>6</number>
             </property>
             <widget class="QWidget" name="homePage">
              <widget class="QLabel" name="label_4">
               <property name="geometry">
                <rect>
-                <x>225</x>
-                <y>90</y>
-                <width>166</width>
+                <x>15</x>
+                <y>0</y>
+                <width>631</width>
                 <height>91</height>
                </rect>
               </property>
@@ -703,26 +703,48 @@ QPushButton{
              </widget>
             </widget>
             <widget class="QWidget" name="aboutPage">
-             <widget class="QLabel" name="label_8">
-              <property name="geometry">
-               <rect>
-                <x>270</x>
-                <y>195</y>
-                <width>166</width>
-                <height>91</height>
-               </rect>
-              </property>
-              <property name="font">
-               <font>
-                <pointsize>15</pointsize>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="text">
-               <string>About Page</string>
-              </property>
-             </widget>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>About Page</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_11">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;The course selector app is a service brought to you by:&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Students of computer engineering &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Ahmadu Bello University Zaria&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Nigeria.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_12">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;To get help with our course selector app kindly check out the&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt; help page on the menu&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_2" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_8">
+                 <item>
+                  <widget class="QLabel" name="label_13">
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Need more help?&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Try these next steps:&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
             </widget>
             <widget class="QWidget" name="notificationsPage">
              <widget class="QLabel" name="label_9">
