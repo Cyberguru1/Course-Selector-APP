@@ -1,0 +1,154 @@
+{
+    "ShowLogs": true,
+    "QMainWindow": [
+        {
+            "tittle": "Course Selector App"
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": []
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "Course Selector App",
+                "ApplicationName": "Course Selector App Company",
+                "OrginizationDormain": "compeng.abu.edu.ng"
+            }
+        }
+    ],
+    "QPushButtonGroup": [
+        {
+            "Buttons": [
+                "homeBtn",
+                "connectBtn",
+                "institutionBtn",
+                "select_courseBtn",
+                "aboutBtn",
+                "helpBtn"
+            ],
+            "Style": [
+                {
+                    "Active": "background-color: #1b1b27; border-left: 4px solid #cc5bce; font-weight: bold;",
+                    "NotActive": "background-color: transparent; border: none;"
+                }
+            ]
+        }
+    ],
+    "QCustomSlideMenu": [
+        {
+            "name": "leftMenu",
+            "defaultSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "collapsedSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "expandedSize": [
+                {
+                    "width": 200,
+                    "height": "parent"
+                }
+            ],
+            "toggleButton": [
+                {
+                    "buttonName": "menuBtn",
+                    "icons": [
+                        {
+                            "whenMenuIsCollapsed": ":/icons/Icons/align-justify.png",
+                            "whenMenuIsExpanded": ":/icons/Icons/chevron-left.png"
+                        }
+                    ]
+                }
+            ],
+            "menuTransitionAnimation": [
+                {
+                    "animationDuration": 400,
+                    "animationEasingCurve": "Linear"
+                }
+            ]
+        },
+        {
+            "name": "rightMenu",
+            "defaultSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "collapsedSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "expandedSize": [
+                {
+                    "width": 400,
+                    "height": "parent"
+                }
+            ],
+            "toggleButton": [
+                {
+                    "buttonName": "tableView"
+                }
+            ],
+            "menuTransitionAnimation": [
+                {
+                    "animationDuration": 400,
+                    "animationEasingCurve": "Linear"
+                }
+            ]
+        }
+    ],
+    "QStackedWidget": [
+        {
+            "name": "mainPages",
+            "transitionAnimation": [
+                {
+                    "fade": [
+                        {
+                            "active": true,
+                            "duration": 400,
+                            "easingCurve": "OutBack"
+                        }
+                    ],
+                    "slide": [
+                        {
+                            "active": true,
+                            "duration": 400,
+                            "direction": "horizontal",
+                            "easingCurve": "OutBack"
+                        }
+                    ]
+                }
+            ],
+            "navigation": [
+                {
+                    "navigationButtons": [
+                        {
+                            "homeBtn": "homePage",
+                            "connectBtn": "connPage",
+                            "select_courseBtn": "selectPage",
+                            "institutionBtn": "institutionsPage",
+                            "helpBtn": "helpPage",
+                            "aboutBtn": "aboutPage",
+                            "notificationsBtn": "notificationsPage",
+                            "connBtn": "connPage",
+                            "submitBtn": "resultPage",
+                            "backrBtn": "selectPage"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
