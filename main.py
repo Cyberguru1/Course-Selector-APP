@@ -5,25 +5,28 @@
 ########################################################################
 ## IMPORTS
 ########################################################################
-import os
 import sys
 ########################################################################
 # IMPORT GUI FILE
 from ui_interface import *
 ########################################################################
+# Custom import
 import speedtest
-from PySide2.QtSql import QSqlDatabase, QSqlQueryModel, QSqlQuery
+from PySide2.QtSql import QSqlDatabase, QSqlQueryModel
 import openai
 import sqlite3
 ########################################################################
+
 # IMPORT Custom widgets
 from Custom_Widgets.Widgets import *
+
 # INITIALIZE APP SETTINGS
 settings = QSettings()
 
 ########################################################################
+
 # setting openapi access token key
-openai.api_key = "" # openai chatgpt access token 
+openai.api_key = "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" # openai chatgpt access token 
 
 ########################################################################
 ## MAIN WINDOW CLASS
