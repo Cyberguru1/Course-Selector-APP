@@ -1,7 +1,7 @@
 link to assests:  https://ibass.jamb.gov.ng/assets/content/courses-by-institution/8.json
 link to assests:  https://ibass.jamb.gov.ng/assets/content/brochure_school.json
 
-api_key = "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"
+api_key = ""
 
 
 

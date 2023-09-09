@@ -26,7 +26,7 @@ settings = QSettings()
 ########################################################################
 
 # setting openapi access token key
-openai.api_key = "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" # openai chatgpt access token 
+openai.api_key = "" # openai chatgpt access token 
 
 ########################################################################
 ## MAIN WINDOW CLASS
