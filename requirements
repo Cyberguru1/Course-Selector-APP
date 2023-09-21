@@ -3,3 +3,4 @@ PyQt5
 openai
 sqlite3
 speedtest
+python-decouple

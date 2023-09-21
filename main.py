@@ -15,6 +15,7 @@ import speedtest
 from PySide2.QtSql import QSqlDatabase, QSqlQueryModel
 import openai
 import sqlite3
+from decouple import config
 ########################################################################
 
 # IMPORT Custom widgets
@@ -26,7 +27,7 @@ settings = QSettings()
 ########################################################################
 
 # setting openapi access token key
-openai.api_key = "" # openai chatgpt access token 
+openai.api_key = config("api_key") # openai chatgpt access token 
 
 ########################################################################
 ## MAIN WINDOW CLASS
