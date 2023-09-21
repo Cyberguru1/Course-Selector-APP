@@ -1229,4 +1229,3 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.jambLabel.setText(QCoreApplication.translate("MainWindow", u"JAMB SUBJECTS", None))
     # retranslateUi
-
