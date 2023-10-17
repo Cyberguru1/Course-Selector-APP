@@ -14,6 +14,26 @@ In terms of decision making our app helps the Student in recommending possible c
 * The app also have a history where all previous searches where stored for reference
 * A help menu is also incorporated in order to show the user on how to use the APP
 
+## **APP UI**
+
+- **Home Page**
+
+![](https://media.discordapp.net/attachments/975033575416143962/1148199269535334450/home_page_g1.png?ex=653f81e6&is=652d0ce6&hm=d0a96b164edfca5c6e28d5cba9c19f2315c8ef6bf53dde5d4a503c5f0baa65dc&=&width=984&height=627)
+
+
+- **Select Course Page**
+
+![](https://media.discordapp.net/attachments/975033575416143962/1148193364076929124/select1_g1.png?ex=653f7c66&is=652d0766&hm=939478cda8edb79aaf5f8925489cf313485476fe4588758752da337b73a369da&=&width=981&height=627)
+
+![](https://media.discordapp.net/attachments/975033575416143962/1148193363678474321/select2_g1.png?ex=653f7c66&is=652d0766&hm=34f0a48ad3d7dad6ee60b36b04a849d6e60422c04e1397bde13e715c6c97d066&=&width=989&height=627)
+
+
+- **Internet Connection Test Page**
+- ![](https://media.discordapp.net/attachments/975033575416143962/1148193364408283137/connection_g1.png?ex=653f7c66&is=652d0766&hm=2906834ac961e185e5436920ec2da13a63b8cceec474a0f9885c16d507af80cd&=&width=980&height=627)
+- **Notification Page**
+- ![](https://media.discordapp.net/attachments/975033575416143962/1148193364697677905/notifcation_g1.png?ex=653f7c66&is=652d0766&hm=cd56e9f2f498cbebf2fa77a62820867a3b0c39096082a65c5a8b8b3b6695516e&=&width=986&height=627)
+
+
 # Technology Used
 
 * **Qt-Designer-Tool**: qt-designer tool was used to create the front end of the gui app, due to time constraints this was an effective way in building the GUI interface to the user where the conceptual model of the user is taking into consideration
@@ -26,7 +46,6 @@ Most of the challenges faced while building this project includes:
 
 * Time Constriants
 * Debugging Bugs
-* Team Work
 
 # Feature Upgrades
 
